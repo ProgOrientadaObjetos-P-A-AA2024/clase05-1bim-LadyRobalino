@@ -14,10 +14,19 @@ public class Calificacion {
     private double nota;
     private String nombreMateria;
     private Profesor profesor;
-
+    /*
+    Se puede crear objetos de "todo tipo" dependiendo de como llamemos a la clase
+    que si o si se debe crear para poder interactuar.
+    */
     public Calificacion(double n, String nombre) {
         nota = n;
         nombreMateria = nombre;
+    }
+    
+    public Calificacion(double n, String nombre, Profesor p) {
+        nota = n;
+        nombreMateria = nombre;
+        profesor = p;
     }
 
     public void establecerNota(double n) {

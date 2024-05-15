@@ -10,6 +10,7 @@ import paquete01.Calificacion;
 public class Ejemplo {
     public static void main(String[] args) {
         // crear un arreglo de objetos de tipo Calificacion
+        
         Calificacion [] calificaciones = new Calificacion[2];
         
         Calificacion c = new Calificacion(10, "Computación");
