@@ -19,7 +19,7 @@ public class LibretaCalificacion {
 
     public LibretaCalificacion(String n, double[] c) {
         estudiante = n;
-        calificaciones = c;
+        calificaciones = c; 
     }
 
     public void establecerEstudiante(String n) {
@@ -32,6 +32,7 @@ public class LibretaCalificacion {
         // for (int i = 0; i < calificaciones.length; i++) {
         for (int i = 0; i < obtenerCalificaciones().length; i++) {
             suma = suma + obtenerCalificaciones()[i];
+            // suma = 0 + obtenerCalificaciones[0]
         }
 
         promedio = suma / obtenerCalificaciones().length;
