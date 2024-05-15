@@ -15,6 +15,10 @@ public class Ejecutor2 {
         LibretaCalificacion calificaciones = new LibretaCalificacion(nombreEstudiante,
                                                            notas);
         calificaciones.establecerPromedio();
+        /* Si dejaria comentada las lineas 17 y 22 es decir no llamaria a los 
+        metodos lo que imprimiria seriaa 0 y null, porque estos son los valores
+        que toma por defecto al no recibir ningun valor.       
+        */
         calificaciones.establecerPromedioCualitativo();
         System.out.printf("\n%s\n", calificaciones);
     }
