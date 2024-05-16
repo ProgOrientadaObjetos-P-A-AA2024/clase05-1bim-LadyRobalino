@@ -30,6 +30,7 @@ public class EjemploCuatro {
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota(),
                     objetoCalificacion.obtenerProfesor().obtenerNombre(),
+            
                     objetoCalificacion.obtenerProfesor().obtenerTipo());
             /*
             Y en la linea 32 y 33 podemos llamar a los atributos que tendria la 
