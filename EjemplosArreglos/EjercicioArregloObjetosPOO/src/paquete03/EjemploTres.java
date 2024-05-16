@@ -12,7 +12,10 @@ public class EjemploTres {
         // crear un arreglo de objetos de tipo Calificacion
         Calificacion [] calificaciones = {new Calificacion(10, "Computación"), 
             new Calificacion(9, "Electrónica")};
-        
+        /*
+        Se puede mandar directamente valores al arreglo y asi ya no crea los 
+        arreglos aparte esto ayuda a no escribir tanto codigo.
+        */
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
             System.out.printf("%s - %.2f\n", 
